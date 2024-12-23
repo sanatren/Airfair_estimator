@@ -527,16 +527,9 @@ def main():
         st.pyplot(fig_corr)
 
     # ------------------------------
-    # Tab 3: Model Evaluation
-    # ------------------------------
-    
-
-        
-
-    # ------------------------------
     # Tab 4: Airlines News
     # ------------------------------
-    with tabs[2]:
+    with tabs[3]:
         st.header("Latest Airline News")
         news_items = fetch_airline_news()
         if isinstance(news_items, str):
