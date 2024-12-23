@@ -536,7 +536,7 @@ def main():
     # ------------------------------
     # Tab 4: Airlines News
     # ------------------------------
-    with tabs[3]:
+    with tabs[2]:
         st.header("Latest Airline News")
         news_items = fetch_airline_news()
         if isinstance(news_items, str):
