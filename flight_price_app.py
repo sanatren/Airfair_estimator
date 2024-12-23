@@ -533,7 +533,7 @@ def main():
         show_model_evaluation(baseline_model, X_test, y_test, title="Baseline RandomForest Model Performance")
 
         st.markdown("---")
-        st.markdown("### Train a Tuned Model (Optional)")
+        '''st.markdown("### Train a Tuned Model (Optional)")
         st.markdown(
             "Below is a demonstration of how you'd tune and evaluate a Random Forest model. "
             "This can take extra time if the dataset is large."
@@ -570,7 +570,7 @@ def main():
 
                 st.write("**Best Params:**", random_rf.best_params_)
 
-                show_model_evaluation(best_model, X_test, y_test, title="Tuned RandomForest Model Performance")
+                show_model_evaluation(best_model, X_test, y_test, title="Tuned RandomForest Model Performance")'''
 
     # ------------------------------
     # Tab 4: Airlines News
