@@ -532,45 +532,7 @@ def main():
     with tabs[2]:
         show_model_evaluation(baseline_model, X_test, y_test, title="Baseline RandomForest Model Performance")
 
-        #st.markdown("---")
-        '''st.markdown("### Train a Tuned Model (Optional)")
-        st.markdown(
-            "Below is a demonstration of how you'd tune and evaluate a Random Forest model. "
-            "This can take extra time if the dataset is large."
-        )
-        if st.button("Run RandomizedSearchCV"):
-            with st.spinner("Tuning hyperparameters..."):
-                n_estimators = [int(x) for x in np.linspace(start=100, stop=1200, num=12)]
-                max_features = ['auto', 'sqrt']
-                max_depth = [int(x) for x in np.linspace(5, 30, num=6)]
-                min_samples_split = [2, 5, 10, 15, 100]
-                min_samples_leaf = [1, 2, 5, 10]
-
-                random_grid = {
-                    'n_estimators': n_estimators,
-                    'max_features': max_features,
-                    'max_depth': max_depth,
-                    'min_samples_split': min_samples_split,
-                    'min_samples_leaf': min_samples_leaf
-                }
-
-                random_rf = RandomizedSearchCV(
-                    estimator=baseline_model,
-                    param_distributions=random_grid,
-                    scoring='neg_mean_squared_error',
-                    n_iter=10,
-                    cv=5,
-                    verbose=2,
-                    random_state=42,
-                    n_jobs=-1
-                )
-
-                random_rf.fit(X_train, y_train)
-                best_model = random_rf.best_estimator_
-
-                st.write("**Best Params:**", random_rf.best_params_)
-
-                show_model_evaluation(best_model, X_test, y_test, title="Tuned RandomForest Model Performance")'''
+        
 
     # ------------------------------
     # Tab 4: Airlines News
