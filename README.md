@@ -1,5 +1,5 @@
-# flight-ticket-price-model
-ML model which predicts flight ticket prices. 
+[# flight-ticket-price-model
+ML model which predicts flight ticket prices.](https://myflight.streamlit.app/) 
 
 ## how to set-up locally
 
