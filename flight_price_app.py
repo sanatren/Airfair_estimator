@@ -529,8 +529,7 @@ def main():
     # ------------------------------
     # Tab 3: Model Evaluation
     # ------------------------------
-    with tabs[2]:
-        show_model_evaluation(baseline_model, X_test, y_test, title="Baseline RandomForest Model Performance")
+    
 
         
 
