@@ -527,7 +527,7 @@ def main():
         st.pyplot(fig_corr)
 
     # ------------------------------
-    # Tab 4: Airlines News
+    # Tab 3: Airlines News
     # ------------------------------
     with tabs[3]:
         st.header("Latest Airline News")
