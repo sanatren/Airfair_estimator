@@ -10,3 +10,4 @@ requests
 scikit-learn
 seaborn
 feedparser
+openpyxl
