@@ -420,7 +420,7 @@ def main():
         return
 
     # Tabs
-    tabs = st.tabs(["Price Prediction", "Data Analysis", "Model Evaluation", "Airlines News"])
+    tabs = st.tabs(["Price Prediction", "Data Analysis", "Airlines News"])
 
     # ------------------------------
     # Tab 1: Price Prediction
@@ -529,7 +529,7 @@ def main():
     # ------------------------------
     # Tab 3: Airlines News
     # ------------------------------
-    with tabs[3]:
+    with tabs[2]:
         st.header("Latest Airline News")
         news_items = fetch_airline_news()
         if isinstance(news_items, str):
