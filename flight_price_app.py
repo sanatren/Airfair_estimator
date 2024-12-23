@@ -532,7 +532,7 @@ def main():
     with tabs[2]:
         show_model_evaluation(baseline_model, X_test, y_test, title="Baseline RandomForest Model Performance")
 
-        st.markdown("---")
+        #st.markdown("---")
         '''st.markdown("### Train a Tuned Model (Optional)")
         st.markdown(
             "Below is a demonstration of how you'd tune and evaluate a Random Forest model. "
